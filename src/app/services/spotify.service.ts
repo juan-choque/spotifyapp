@@ -1,6 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
+import { environment } from '../../environments/environment.prod'
 @Injectable({
   providedIn: 'root'
 })
@@ -14,7 +15,7 @@ export class SpotifyService {
   getQuery(query: string): any{
       const url = `https://api.spotify.com/v1/${ query }`;
       const headers = new HttpHeaders({
-        Authorization: 'Bearer BQChlg6qvu1n6KYXG_C_nnaEtTPaxhOfZMt-yG7YoN8OA7wJNWN4JbViPt-uiTnNG12Q8-AEfJ5a6YFwBnyailU62aC0U9VC5TgUr3OlYuPyiPaqeFZR'
+        Authorization: environment.token
       });
 
       return this.http.get( url, { headers});
