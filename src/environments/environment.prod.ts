@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  token:' Bearer BQBXIoFd7hpcPbVkNCmIQounY6sl-zs097uYraurjZnjXBSbu60TwK1yWLq8hliiaHdVyFrG6PC0ZYjJF20iDPtZ-EoPAWCn6gCkE19AfRKn0PZ-TRbq'
+  token:' Bearer BQCEjgIWVFQQhA9zLq9DdkRR7lmsFyut_o0xaYukUK_d3ZSzO6W6jkf2qSgKwuwB71HNBedcWB9U4p6AihzvTNicwgRlB5938srY24Yjp4NGAi85O4YO'
 };
